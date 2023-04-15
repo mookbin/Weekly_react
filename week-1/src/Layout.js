@@ -17,4 +17,4 @@ function Layout(props) {
 }
 export default Layout;
 
-// 항상 어느 페이지든간에 들어와야한다면 Layout 밑에 항상 children을  받으면 된다.
+// 항상 어느 페이지든 간에 들어와야한다면 Layout 밑에 항상 children을  받으면 된다.
