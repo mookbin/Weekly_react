@@ -1,0 +1,106 @@
+.App {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.input-space input {
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  width: 200px;
+}
+
+.input-space button {
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 80px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input-space button:hover {
+  background-color: #2efd39;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.working-space,
+.done-space {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.lists {
+  flex-wrap: wrap;
+}
+
+.lists div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lists div button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.lists div button:first-child,
+.lists div button:last-child {
+  background-color: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.lists div button:first-child:hover {
+  background-color: #2efd39;
+  color: #000000;
+  transition: 0.4s;
+}
+
+.lists div button:last-child:hover {
+  background-color: #400000;
+  color: white;
+  transition: 0.4s;
+}
